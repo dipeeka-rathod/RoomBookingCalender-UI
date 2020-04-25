@@ -1,0 +1,87 @@
+@font-face {
+    font-family:'GothamBold';
+    src: url('../fonts/Gotham-Bold.eot');
+	src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gotham-Bold.woff2') format('woff2'),
+		url('../fonts/Gotham-Bold.woff') format('woff'),
+		url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'GothamBook';
+    src: url('../fonts/Gotham-Book.eot');
+	src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gotham-Book.woff2') format('woff2'),
+		url('../fonts/Gotham-Book.woff') format('woff'),
+		url('../fonts/Gotham-Book.svg#Gotham-Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+body { color:#333; font-size:12px; font-family:'GothamBook'; line-height:1.5; background:#f6f6f6; padding-right:0 !important; }
+.clear { clear:both; }
+a:hover , a:focus, a:active { text-decoration:none; outline:none; border:none; }
+html,body { overflow-x: hidden; /* Prevent scroll on narrow devices */ }
+footer {  padding: 30px 0;}
+.clear { clear:both; }
+.desktop { display:inherit; }
+.mobile { display:none !important;}
+.form-control:hover, .form-control:focus { border:none; outline:none; box-shadow:none; }
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+input[type="number"] { -moz-appearance: textfield; }
+p { display:block !important; }
+
+/*=============================== header ========================*/
+header { background:#fff; padding:10px 0; }
+header p { text-align:right; margin:20px 0 0; padding-right:0 !important; }
+header p a { color:#333; margin:0 5px; font-size:13px;  }
+
+/*=============================== main ========================*/
+.page_title { font-size:24px; margin:30px 0 0px; font-family:'GothamBold'; color:#000; }
+.view_style { background:#fff; border-radius:5px; padding:15px; margin:20px 0 20px; }
+.view_style a { color:#333; font-size:14px; background:#f6f6f6; padding:4px 12px 3px; float:left; margin-right:5px; line-height:2; border:none; }
+.view_style a:focus, .view_style a:hover, .view_style a:active { color:#fff; background:#ccc; border:none; outline:none; }
+.pagination { margin-bottom:0; }
+.view_style .form-control { width:auto; height:36px !important; font-size:13px; padding:5px 10px; float:left;  margin-right:10px; border:1px solid #ccc !important; }
+.view_style .pagination { float:right; }
+.hotel_col { background:#fff; border:1px solid #eee; border-radius:5px; padding:15px; margin:15px 0; }
+.hotel_col_img img { max-width:100%; height:200px; margin-bottom:20px; }
+.hotel_col_info { position:relative; text-align:left; padding-right:15px; }
+.hotel_name { font-family:'GothamBold'; font-size:16px; margin:5px 0 20px; border-bottom:1px solid #333; padding-bottom:10px; }
+.table-scroll {	position:relative; margin:auto; overflow:hidden; font-size:12px; }
+.table-wrap { width:100%; overflow:auto; }
+.table-scroll table { width:100%; margin:auto; border-spacing:1px; }
+.table-scroll th, .table-scroll td { cursor:pointer; padding:5px 4px; border:1px solid #000; background:#f6f6f6; white-space:nowrap; vertical-align:top; }
+.table-scroll td:focus, .table-scroll td:active { background:#ccc; }
+.table-scroll thead, .table-scroll tfoot { 	background:#f9f9f9; }
+.clone { position:absolute; top:0; left:0; pointer-events:none; }
+.clone th, .clone td { visibility:hidden; }
+.clone td, .clone th { border-color:transparent; }
+.clone tbody th { visibility:visible; color:#000; }
+.clone .fixed-side { border:1px solid #000; background:#eee; visibility:visible; }
+.clone thead, .clone tfoot{background:transparent;}
+.confirmed { background:#b2e206 !important; }
+.hold { background:#fdaeca !important; }
+.enquiry { background:#7f7f7f !important; }
+.note { margin-top:20px; display:block !important; }
+.note span { display:inline-block; height:10px; width:10px; }
+.buttongroup { float:right; margin-top:20px; }
+.buttongroup .btn { font-size:12px; }
+.nav-tabs { height:32px; margin-top:10px; }
+.nav-tabs li a { background:#eee; padding:13px 30px 13px; border-radius:5px 5px 0 0; margin:0 5px 0 0; font-size:15px; color:#333 }
+.nav-tabs li.active a { color:#fff; background:#28a745; }
+.monthly .table-scroll th { text-align:center; padding:10px 0; font-family:'GothamBold'; font-size:18px; }
+.monthly .table-scroll td { font-weight: 600; padding:10px 10px; font-size:13px; }
+.roomdetails p { font-size:13px; color:#333; display:block !important; }
+.roomdetails p span {  font-family:'GothamBold'; }
+.modal-open .modal { padding-right:0 !important; }
+
+/*=============================================== footer ====================================*/
+footer { float:left; width:100%; background:#ccc; padding:20px 0; margin-top:20px; }
+footer p { color:#fff; text-transform:uppercase; font-size:12px; margin-bottom:0; text-align:center; }
